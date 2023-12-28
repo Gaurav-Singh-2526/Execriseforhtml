@@ -3,10 +3,12 @@
     margin: 0;
   }
   .nav {
+    position: sticky;
+    top: 0;
     margin: 1px;
     color: red;
     padding: 0;
-    /* background-color:red; */
+    background-color:palevioletred;
     /* display:flex; */
     /* position:fixed; */
     width: 97vw;
@@ -74,6 +76,9 @@
     font-size: 30px;
   }
   .logo{
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
     display: flex;
     justify-content: flex-end;
   }
